@@ -146,28 +146,20 @@ var punkt = {"type": "FeatureCollection",
 
 
 		{"type":"Feature","geometry":{"type":"Point","coordinates":[10.44365990, 63.42468991]},"properties":{
-			"name":"Valentinlyst helse- og velferdsenter",
+			"name":"Valentinlyst Helse&VFS.",
 			"description":"Valentinlyst helse- og velferdssenter"}},
 
-			
 		{"type":"Feature","geometry":{"type":"Point","coordinates":[10.43925580, 63.42868665]},"properties":{
-				"name":"Persaunet Helse- og velferdssenter",
+				"name":"Persaunet Helse&VFS.",
 				"description":"Persaunet Helse- og velferdssenter"}},
 	
-
-
-	{ "type": "Feature", "properties": { "name": "Persaunet H&Vf.sent.", 
-											"description": "Persaunet Helse- og Velferdssenter", 
-											"geometry": { "type": "Point", "coordinates": [ 10.43918024, 63.42869692 ] } }},
-
-
 	{"type":"Feature","geometry":{"type":"Point","coordinates":[10.44671009, 63.43112856]},"properties":{
 		"name":"Persaunet leir","description":
 		"Konsert og avslutning på grusbane Persaunet Leir."}},
 
 	{"type":"Feature","geometry":{"type":"Point","coordinates":[10.45551410, 63.42822259]},"properties":{
 		"name":"Bromstad sykehjem.",
-		"description":"Spilling Bromstad sykehjem"}},
+		"description":"Konsert Bromstad sykehjem"}},
 
 	{"type":"Feature","geometry":{"type":"Point","coordinates":[10.455251,63.433514]},"properties":{
 		"name":"Strindheim&nbsp;skole",
