@@ -291,16 +291,16 @@ marsjering_em =  L.geoJson(marsjgeo_em, {
 			
 */
 
-marsjering =  L.geoJson(marsjgeo, {
-	style: function(feature) {
-	 return {
-		color: "#ff0000"
-	};
-	}, 
-		onEachFeature: function (feature, layer) {
-			layer.bindPopup(feature.properties.description);
-		}
-		}).addTo(map);
+// marsjering =  L.geoJson(marsjgeo, {
+// 	style: function(feature) {
+// 	 return {
+// 		color: "#ff0000"
+// 	};
+// 	}, 
+// 		onEachFeature: function (feature, layer) {
+// 			layer.bindPopup(feature.properties.description);
+// 		}
+// 		}).addTo(map);
 			
 /* DISSE TRENGER VI
 
@@ -356,8 +356,8 @@ map.addControl(layerControl);
 
 var layerControl = L.control.layers(null, {  
 			"SSM fane": realtime, 
-			"Spor etter SSM fane": realtimeLinje, 
-			"Planlagt rute" : marsjering
+			"Spor etter SSM fane": realtimeLinje //,
+			// "Planlagt rute" : marsjering
 			},  {position: 'bottomright'} ); 
 map.addControl(layerControl); 
 
